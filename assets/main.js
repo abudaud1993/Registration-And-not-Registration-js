@@ -6,11 +6,11 @@
 
     if(age >= 18 && (country == 'Bangladesh' || country == 'India' ) && country !== 'Pakistan' && (gender == 'male' || gender !== 'female' )) {
 
-        document.querySelector('.pangsha').innerHTML='Account has been completed.'
+        document.querySelector('.pangsha').innerHTML='Account has been completed. / You Can registration'
 
     }else{
 
-        document.querySelector('.pangsha').innerHTML='Account has been unveiled!.'
+        document.querySelector('.pangsha').innerHTML='Account has been unveiled! / You Can not registration.'
     }
 
 
